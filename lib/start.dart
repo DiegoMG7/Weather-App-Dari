@@ -27,17 +27,19 @@ class _StartState extends State<Start> {
     String lon;
     String timeZ;
 
-    if(valueWS == 'محمد آکرم  محمد آیوب'){
+    if(valueWS == 'کندهار محمد آکرم'){
       macValue = '84:F3:EB:54:51:76';
       lat = '31.62887';
       lon = '65.73717';
       timeZ = 'Asia/Kabul';
+      //kandahar
     }
-    else if(valueWS == 'ده بالا زمان کور  بیگ محمد خیل'){
+    else if(valueWS == 'پنجشیر بیگ محمد خیل'){
       macValue = '84:F3:EB:54:50:54';
       lat = '35.50257';
       lon = '69.95503';
       timeZ = 'Asia/Kabul';
+      //panjshir
     }
     else if(valueWS == 'MRRD-Kabul'){
       macValue = 'A4:CF:12:B4:ED:F1';
@@ -45,19 +47,34 @@ class _StartState extends State<Start> {
       lon = '69.11896';
       timeZ = 'Asia/Kabul';
     }
-    else if(valueWS == 'World Bank-Kabul'){
+    else if(valueWS == 'Kabul, World Bank'){
       macValue = '3C:71:BF:3E:A6:17';
       lat = '34.55534';
       lon = '69.20748';
       timeZ = 'Asia/Kabul';
     }
-    else if(valueWS == 'قرغ آول   سلمان فارس'){
+    else if(valueWS == 'بدخشان قروغ اول'){
       macValue = 'A4:CF:12:A0:2D:77';
       lat = '36.73477';
       lon = '70.81199';
       timeZ = 'Asia/Kabul';
+      //Badakhshan
     }
-    else if(valueWS == 'Chapel Hill'){
+    else if(valueWS == 'بدخشان سرکوتل'){
+      macValue = 'A4:CF:12:B4:ED:F1';
+      lat = '36.96944';
+      lon = '70.35111';
+      timeZ = 'Asia/Kabul';
+      //03
+    }
+    else if(valueWS == 'بدخشان نو آباد پینگانی'){
+      macValue = 'A4:CF:12:A0:2D:F3';
+      lat = '37.00099';
+      lon = '70.27300';
+      timeZ = 'Asia/Kabul';
+      //02
+    }
+    else if(valueWS == 'Chapel Hill, USA'){
       macValue = '3C:71:BF:3E:A2:C0';
       lat = '35.913199';
       lon = '-79.05584';
@@ -144,7 +161,7 @@ class _StartState extends State<Start> {
                             //print(selectionValue);
                           });
                         },
-                        items: <String>['انتخاب گزینه','محمد آکرم  محمد آیوب', 'ده بالا زمان کور  بیگ محمد خیل', 'MRRD-Kabul', 'World Bank-Kabul','قرغ آول   سلمان فارس','Chapel Hill']
+                        items: <String>['انتخاب گزینه','کندهار محمد آکرم','پنجشیر بیگ محمد خیل', 'Kabul, World Bank','بدخشان قروغ اول','بدخشان سرکوتل','بدخشان نو آباد پینگانی','Chapel Hill, USA']
                             .map<DropdownMenuItem<String>>((String value) {
                           return DropdownMenuItem<String>(
                             value: value,
