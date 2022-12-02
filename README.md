@@ -1,6 +1,12 @@
 # weatherapp
 
-V1 of the Weather App that Development Monitors is going to deploy in Afghanistan
+Dari version of the Weather App that Development Monitors LLC deployed in Afghanistan
+
+This app was made with the development framework Flutter, it fetches data using an Ambient Weather's API and shows the data from different physical weather station located at the aprticipating communities this project helps.
+
+The app was designed so that the users (community members) will be able to get reliable weather data in a simple familiar way and in a language they know. Providing the user with the current wheather data.
+
+This App was designed and developed by Diego Moreno Gonzalez and Development Monitors LLC has the ownership of this code.
 
 ## Getting Started
 
