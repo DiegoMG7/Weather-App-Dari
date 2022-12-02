@@ -2,7 +2,7 @@
 
 Dari version of the Weather App that Development Monitors LLC deployed in Afghanistan
 
-This app was made with the development framework Flutter, it fetches data using an Ambient Weather's API and shows the data from different physical weather station located at the aprticipating communities this project helps.
+This app was made with the development framework Flutter, it fetches data using an Ambient Weather's API and shows the data from different physical weather stations located at the communities that this project helps.
 
 The app was designed so that the users (community members) will be able to get reliable weather data in a simple familiar way and in a language they know. Providing the user with the current wheather data.
 
